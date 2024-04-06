@@ -2,6 +2,7 @@
 
 namespace Foxws\WireUi;
 
+use Foxws\WireUse\Facades\WireUse;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -33,7 +34,7 @@ class WireUiServiceProvider extends PackageServiceProvider
             return $this;
         }
 
-        WireUi::registerComponents(
+        WireUse::registerComponents(
             path: __DIR__,
             namespace: 'Foxws\\WireUi\\',
             prefix: config('wireui.view_prefix'),
@@ -48,7 +49,7 @@ class WireUiServiceProvider extends PackageServiceProvider
             return $this;
         }
 
-        WireUi::registerLivewireComponents(
+        WireUse::registerLivewireComponents(
             path: __DIR__,
             namespace: 'Foxws\\WireUi\\',
             prefix: config('wireui.view_prefix'),
