@@ -2,7 +2,6 @@
 
 namespace Foxws\WireUi;
 
-use Illuminate\View\ComponentAttributeBag;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

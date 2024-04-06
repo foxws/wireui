@@ -2,9 +2,9 @@
 
 namespace Foxws\WireUi\Tests;
 
-use Foxws\WireUi\WireUiServiceProvider;
 use Foxws\WireUi\Tests\TestClasses\BladeComponent;
 use Foxws\WireUi\Tests\TestClasses\LivewireComponent;
+use Foxws\WireUi\WireUiServiceProvider;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Schema;
