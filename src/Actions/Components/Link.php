@@ -2,7 +2,7 @@
 
 namespace Foxws\WireUi\Actions\Components;
 
-use Foxws\WireUse\Views\Components\Component;
+use Foxws\WireUi\Views\Components\Component;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
 

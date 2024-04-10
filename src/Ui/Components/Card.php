@@ -1,11 +1,11 @@
 <?php
 
-namespace Foxws\WireUi\Layout\Components;
+namespace Foxws\WireUi\Ui\Components;
 
 use Foxws\WireUi\Views\Components\Component;
 use Illuminate\View\View;
 
-class Join extends Component
+class Card extends Component
 {
     public function __construct(
         public bool $vertical = false,
@@ -14,6 +14,6 @@ class Join extends Component
 
     public function render(): View
     {
-        return view('wireui::layout.join');
+        return view('wireui::ui.card');
     }
 }

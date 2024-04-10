@@ -2,7 +2,7 @@
 
 namespace Foxws\WireUi\Forms\Components;
 
-use Foxws\WireUse\Views\Components\Component;
+use Foxws\WireUi\Views\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\View\View;
 
