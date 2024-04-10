@@ -5,7 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/foxws/wireui/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=flat-square)](https://github.com/foxws/wireui/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/foxws/wireui.svg?style=flat-square)](https://packagist.org/packages/foxws/wireui)
 
-Collection of essential Livewire Utilities.
+Collection of essential Livewire components and views.
 
 ## Installation
 
@@ -27,11 +27,9 @@ Optionally, you can publish the views using
 php artisan vendor:publish --tag="wireui-views"
 ```
 
-## Usage
+## Documentation
 
-This package is still under construction. We hope to publish the documentation as soon as possible.
-
-For now you can use the [Hub project](https://github.com/francoism90/hub) as a reference.
+You will find full documentation on the dedicated [documentation](https://foxws.nl/projects/wireui) site.
 
 ## Testing
 
