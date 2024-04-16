@@ -1,6 +1,6 @@
 <?php
 
-namespace Foxws\WireUi\Views\Components;
+namespace Foxws\WireUi\Views\Support;
 
 use Foxws\WireUse\Views\Concerns\WithHash;
 use Foxws\WireUse\Views\Concerns\WithLivewire;
