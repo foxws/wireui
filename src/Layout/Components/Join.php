@@ -2,7 +2,7 @@
 
 namespace Foxws\WireUi\Layout\Components;
 
-use Foxws\WireUi\Views\Components\Component;
+use Foxws\WireUi\Views\Support\Component;
 use Illuminate\View\View;
 
 class Join extends Component

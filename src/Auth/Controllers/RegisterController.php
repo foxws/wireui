@@ -3,7 +3,7 @@
 namespace Foxws\WireUi\Auth\Controllers;
 
 use Foxws\WireUi\Auth\Forms\RegisterForm;
-use Foxws\WireUse\Views\Components\Page;
+use Foxws\WireUse\Views\Support\Page;
 use Illuminate\View\View;
 use Livewire\Attributes\Layout;
 
