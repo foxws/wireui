@@ -10,7 +10,7 @@
             'active' => $active || $isRoute() || $isRequest(),
         ])
         ->merge([
-            'rel' => ! $isInternal() ? 'external noopener noreferrer' : '',
+            'href' => $getUrl(),
         ])
     }}
 >

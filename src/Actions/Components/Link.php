@@ -13,6 +13,8 @@ class Link extends Component
         public bool $external = false,
         public bool $navigate = true,
         public ?string $route = null,
+        public mixed $parameters = null,
+        public bool $absolute = true,
     ) {
     }
 
@@ -23,7 +25,15 @@ class Link extends Component
 
     public function getUrl(): ?string
     {
-        return $this->attributes->get('href');
+        if (! $this->hasRoute()) {
+            return $this->attributes->get('href');
+        }
+
+        return route(
+            name: $this->route,
+            parameters: $this->parameters,
+            absolute: $this->absolute
+        );
     }
 
     public function isRoute(): bool
