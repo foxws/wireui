@@ -4,6 +4,7 @@ namespace Foxws\WireUi\Tests;
 
 use Foxws\WireUi\Tests\TestClasses\BladeComponent;
 use Foxws\WireUi\Tests\TestClasses\LivewireComponent;
+use Foxws\WireUse\WireUseServiceProvider;
 use Foxws\WireUi\WireUiServiceProvider;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Blade;
@@ -44,6 +45,7 @@ abstract class TestCase extends Orchestra
     {
         return [
             LivewireServiceProvider::class,
+            WireUseServiceProvider::class,
             WireUiServiceProvider::class,
         ];
     }
