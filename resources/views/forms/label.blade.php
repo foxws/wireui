@@ -17,7 +17,7 @@
     @endif
 
     @if ($hint)
-        <p {{ $attributes->classFor('hint') }}">
+        <p {{ $attributes->classFor('hint') }}>
             {{ $hint }}
         </p>
     @endif
