@@ -7,7 +7,13 @@
 
 Collection of essential Livewire components and views.
 
+## Notice
+
+This package will no longer receive updates and changes for the time being. My focus currently is on [foxws/wireuse](https://github.com/foxws/wireuse), it is advised to use that package instead.
+
 ## Installation
+
+> Please see notice first.
 
 You can install the package via composer:
 
